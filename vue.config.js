@@ -43,16 +43,8 @@ module.exports = {
       errors: true
     },
     proxy: {
-      '/user': {
-        target: 'http://11.185.43.142/user',
-        changeOrigin: true,
-        ws: true,
-        pathRewrite: {
-          '^/user': ''
-        }
-      },
       '/menu': {
-        target: 'http://11.185.43.142/menu',
+        target: 'http://serveUrl/menu',
         changeOrigin: true,
         ws: true,
         pathRewrite: {
