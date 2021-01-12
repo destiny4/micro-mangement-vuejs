@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true
+  },
+  "files.exclude": {
+    ".vscode": false,
+    "config/custom.config.demo/": true,
+    "node_modules/": true,
+    ".idea/": true,
+    "dist/": false,
+    "dist.zip": true,
+    ".yarnrc": true,
+    "commitlint.config.js": true,
+    "weshop.config.json": true,
+    "yarn.lock": true,
+    ".browserslistrc": true,
+    "__tests__": true
+  },
+  "editor.fontSize": 13
+}
